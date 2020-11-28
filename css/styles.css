@@ -54,10 +54,6 @@ body {
 /* Logo */
 .navigation,
 .logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-right: 93px;
-  margin-left: 215px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -77,11 +73,8 @@ body {
 }
 .navigation {
   outline: 1px solid red;
-
   display: flex;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 0;
 
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -93,9 +86,6 @@ body {
 .navigation-list {
   display: flex;
   align-items: center;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-right: 331px;
 }
 
 .navigation-list-link {
@@ -130,10 +120,10 @@ body {
 }
 .addres-link-list {
   display: flex;
+  align-items: center;
 }
 .address-link {
   display: flex;
-  margin-right: 215px;
 }
 .address-link:not(:last-child) {
   margin-right: 50px;
