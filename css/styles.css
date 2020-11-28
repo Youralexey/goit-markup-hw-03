@@ -69,7 +69,7 @@ body {
 /* Navigation list*/
 .header {
   display: flex;
-  min-width: 1600px;
+  width: 1600px;
 }
 .navigation {
   outline: 1px solid red;
@@ -145,11 +145,6 @@ body {
 }
 .current-nav-link {
   color: var(--accent-color);
-}
-.navigation,
-.container {
-  margin-left: 215px;
-  margin-right: 215px;
 }
 
 /* End Navigation list*/
