@@ -278,8 +278,9 @@ body {
 .footer-address {
   padding-top: 20px;
 }
-.footer-list-link:not(:first-child) {
-  padding-top: 20px;
+
+.footer-list-link {
+  padding-top: 9px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
