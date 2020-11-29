@@ -62,8 +62,6 @@ body {
   color: var(--primary-text-color);
 }
 .logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
   margin-right: 93px;
 }
 .web {
@@ -107,6 +105,11 @@ body {
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: var(--accent-color);
+}
+.navigation-list-item {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .address {
   display: flex;
@@ -187,7 +190,13 @@ body {
 /* End hero */
 
 /* main */
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 94px;
+}
 .title {
+  width: 270px;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -197,6 +206,7 @@ body {
   color: var(--primary-text-color);
 }
 .descriptions {
+  padding-top: 10px;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -205,6 +215,7 @@ body {
   color: var(--title-text-color);
 }
 .section-title {
+  padding-top: 94px;
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -214,16 +225,42 @@ body {
   counter-reset: var(--primary-text-color);
   color: var(--primary-text-color);
 }
+.employment {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 94px;
+}
+
+.employment-list:not(:last-child) {
+  margin-right: 30px;
+}
 .team-section {
   background-color: #f5f4fa;
 }
+.team-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.team-box:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-list {
+  text-align: center;
+  padding-top: 30px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+.descriptions {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: var(--primary-white-color);
 }
 /* end main */
 /* footer */
